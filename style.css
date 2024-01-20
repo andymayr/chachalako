@@ -1709,3 +1709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 1em; /* Opcional: ajusta el tamaño del texto si es necesario */
     }
 }
+#header {
+    height: 15vh; /* Representa el 15% de la altura de la ventana del navegador */
+    /* Otras propiedades de estilo que ya tengas */
+}
