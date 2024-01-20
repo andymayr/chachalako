@@ -885,6 +885,20 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  
+  <script>
+  var lastScrollTop = 0;
+  window.addEventListener("scroll", function(){
+     var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+     if (currentScroll > lastScrollTop){
+         document.getElementById("header").style.top = "-100px"; // Ajusta este valor según la altura de tu encabezado
+     } else {
+         document.getElementById("header").style.top = "0px";
+     }
+     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para navegadores móviles
+  }, false);
+</script>
+
 </body>
 
 </html>
