@@ -1596,8 +1596,18 @@ body.mobile-nav-active #mobile-nav-toggle {
  height: 15vh; /* Representa el 15% de la altura de la ventana del navegador */
  /* Otras propiedades de estilo que ya tengas */
 }
+}
 .speaker img {
-    height: 200px; /* Adjust as needed */
-    width: auto;
-    object-fit: cover; /* This ensures the image covers the area without distorting aspect ratio */
+    height: 300px; /* Adjust the height as needed */
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distorting the aspect ratio */
+}
+
+.speaker {
+    text-align: center; /* Centers the text and image within the speaker div */
+    margin-bottom: 30px; /* Adds some space below each speaker */
+}
+
+.details {
+    margin-top: 15px; /* Space between image and details */
 }
