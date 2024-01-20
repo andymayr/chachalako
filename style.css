@@ -1541,27 +1541,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #header {
  transition: top 0.3s
 }
@@ -1596,40 +1575,25 @@ body.mobile-nav-active #mobile-nav-toggle {
  height: 15vh; /* Representa el 15% de la altura de la ventana del navegador */
  /* Otras propiedades de estilo que ya tengas */
 }
+}.speaker img {
+    height: 300px; /* Uniform height for all images */
+    width: auto; /* Width is set to auto to maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Centers the image horizontally within its container */
 }
-.speaker img {
-    height: 300px; /* Adjust the height as needed */
-    width: 100%;
-    object-fit: cover; /* Ensures the image covers the area without distorting the aspect ratio */
+
+.col-lg-4, .col-md-6 {
+    display: flex; /* Applies flexbox layout to each column */
+    flex-direction: column; /* Aligns items in a column direction */
+    align-items: center; /* Centers items horizontally within the column */
 }
 
 .speaker {
-    text-align: center; /* Centers the text and image within the speaker div */
-    margin-bottom: 30px; /* Adds some space below each speaker */
+    text-align: center; /* Centers the text within the speaker div */
+    margin-bottom: 30px; /* Adds space below each speaker */
 }
 
 .details {
     margin-top: 15px; /* Space between image and details */
-}
-.speaker img {
-    height: 300px;
-    width: auto;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto; /* Centers the image */
-}
-
-.col-lg-4, .col-md-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* This will center the content of columns */
-}
-
-.speaker {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.details {
-    margin-top: 15px;
 }
