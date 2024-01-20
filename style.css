@@ -1680,3 +1680,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 #header {
   transition: height 0.3s, line-height 0.3s;
 }
+/* Estilos para el logo y el texto */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo-container img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+/* Ajustes para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .logo-container img {
+        max-width: 80px; /* Ajusta a un tamaño más pequeño en dispositivos móviles */
+        max-height: 80px;
+    }
+    .logo-text {
+        font-size: 1em; /* Opcional: ajusta el tamaño del texto si es necesario */
+    }
+}
