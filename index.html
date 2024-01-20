@@ -898,6 +898,16 @@
      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para navegadores móviles
   }, false);
 </script>
+<script>
+  window.addEventListener("scroll", function() {
+    var header = document.getElementById("header");
+    if (window.scrollY > 100) { // Ajusta este valor según tus necesidades
+      header.style.opacity = "0.5"; // Ajusta la opacidad según tus preferencias
+    } else {
+      header.style.opacity = "1";
+    }
+  });
+</script>
 
 </body>
 
