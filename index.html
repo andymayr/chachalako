@@ -887,28 +887,23 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   
-  <script>
+ <script>
+  var header = document.getElementById("header");
   var lastScrollTop = 0;
-  window.addEventListener("scroll", function(){
-     var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-     if (currentScroll > lastScrollTop){
-         document.getElementById("header").style.top = "-100px"; // Ajusta este valor según la altura de tu encabezado
-     } else {
-         document.getElementById("header").style.top = "0px";
-     }
-     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para navegadores móviles
+  
+  window.addEventListener("scroll", function() {
+    var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScroll > lastScrollTop) {
+      // Desplazamiento hacia abajo
+      header.style.height = "50px"; // Reduce la altura para minimizar el encabezado
+    } else {
+      // Desplazamiento hacia arriba
+      header.style.height = "100px"; // Restablece la altura original del encabezado
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para navegadores móviles
   }, false);
 </script>
-<script>
-  window.addEventListener("scroll", function() {
-    var header = document.getElementById("header");
-    if (window.scrollY > 100) { // Ajusta este valor según tus necesidades
-      header.style.opacity = "0.5"; // Ajusta la opacidad según tus preferencias
-    } else {
-      header.style.opacity = "1";
-    }
-  });
-</script>
+
 
 </body>
 
