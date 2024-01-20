@@ -1663,3 +1663,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #header {
   transition: top 0.3s;
 }
+#header {
+  transition: opacity 0.5s;
+}
