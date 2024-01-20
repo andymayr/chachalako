@@ -1596,3 +1596,8 @@ body.mobile-nav-active #mobile-nav-toggle {
  height: 15vh; /* Representa el 15% de la altura de la ventana del navegador */
  /* Otras propiedades de estilo que ya tengas */
 }
+.speaker img {
+    height: 200px; /* Adjust as needed */
+    width: auto;
+    object-fit: cover; /* This ensures the image covers the area without distorting aspect ratio */
+}
