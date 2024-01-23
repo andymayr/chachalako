@@ -824,53 +824,55 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Hotels Section
 --------------------------------------------------------------*/
-
 #hotels {
- padding: 60px 0
+ padding: 60px 0;
 }
 
 #hotels .hotel {
  border: 1px solid #e0e5fa;
  background: #fff;
- margin-bottom: 30px
+ margin-bottom: 30px;
 }
 
 #hotels .hotel:hover .hotel-img img {
  -webkit-transform: scale(1.1);
- transform: scale(1.1)
+ transform: scale(1.1);
 }
 
 #hotels .hotel-img {
  overflow: hidden;
- margin-bottom: 15px
+ margin-bottom: 15px;
 }
 
 #hotels .hotel-img img {
- transition: 0.3s ease-in-out
+ transition: 0.3s ease-in-out;
+ height: 200px; /* Fixed height */
+ width: 100%; /* Full width */
+ object-fit: cover; /* Cover the div without losing aspect ratio */
 }
 
 #hotels h3 {
  font-weight: 600;
  font-size: 20px;
  margin-bottom: 5px;
- padding: 0 20px
+ padding: 0 20px;
 }
 
 #hotels a {
- color: #152b79
+ color: #152b79;
 }
 
 #hotels a:hover {
- color: #f82249
+ color: #f82249;
 }
 
 #hotels .stars {
  padding: 0 20px;
- margin-bottom: 5px
+ margin-bottom: 5px;
 }
 
 #hotels .stars i {
- color: #ffc31d
+ color: #ffc31d;
 }
 
 #hotels p {
@@ -878,8 +880,9 @@ body.mobile-nav-active #mobile-nav-toggle {
  margin-bottom: 20px;
  color: #060c22;
  font-style: italic;
- font-size: 15px
+ font-size: 15px;
 }
+
 
 /*--------------------------------------------------------------
 # Gallery Section
