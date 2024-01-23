@@ -891,66 +891,47 @@
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para navegadores móviles
   }, false);
 </script>
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; /* Use a modern, legible font */
+.speaker {
+  display: flex;
+  margin-bottom: 2rem;
 }
 
-.container {
-    max-width: 1200px; /* Adjust based on your preference */
-    margin: auto;
-    padding: 20px;
+.speaker-img img {
+  width: 300px; /* Establece un ancho fijo para todas las imágenes */
+  height: 400px; /* Establece un alto fijo para todas las imágenes */
+  object-fit: cover; /* Asegura que las imágenes cubran el espacio sin deformarse */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
 }
 
-.section-header h2, .section-header p {
-    text-align: center; /* Center-align section heading and description */
+.speaker-info {
+  flex: 1;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 15px -15px; /* Adjust spacing around rows */
+.speaker-info h3 {
+  margin-top: 0;
 }
 
-.col-md-6 {
-    width: 50%; /* Adjust the column width */
-    padding: 15px; /* Adjust spacing inside columns */
+.speaker-info p {
+  text-align: justify;
+  margin-top: 0.5rem;
 }
 
-.img-container {
-    width: 300px; /* Ancho del contenedor */
-    height: 400px; /* Alto del contenedor */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que exceda del contenedor */
-    display: flex; /* Permite centrar la imagen vertical y horizontalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    margin: 0 auto; /* Si deseas centrar el contenedor en su columna */
-}
-
-.speaker-img {
-    max-width: 100%; /* Hace que la imagen no exceda el ancho del contenedor */
-    min-height: 100%; /* Asegura que la imagen cubra el alto del contenedor */
-    object-fit: cover; /* Asegura que la imagen cubra el contenedor adecuadamente */
-}
-
-
-}
-
-.details h2 {
-    font-size: 24px; /* Adjust heading size */
-    margin-bottom: 10px; /* Adjust spacing below headings */
-}
-
-.details p {
-    font-size: 16px; /* Adjust paragraph size */
-    line-height: 1.5; /* Adjust line height for readability */
-}
-
+/* Responsive adjustments */
 @media (max-width: 768px) {
-    .col-md-6 {
-        width: 100%; /* Stack columns vertically on smaller screens */
-    }
+  .speaker {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .speaker-img img {
+    width: 100%; /* Ajusta las imágenes para dispositivos móviles */
+    height: auto; /* Mantiene la proporción en dispositivos móviles */
+    margin-bottom: 20px;
+  }
+
+  .speaker-info {
+    text-align: center;
+  }
 }
 
 </body>
