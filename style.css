@@ -891,24 +891,47 @@
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para navegadores móviles
   }, false);
 </script>
+/* Estilos Generales */
+body, html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-header h2, .section-header p {
+  text-align: center;
+}
+
+/* Estilos para Ponentes */
 .speaker {
   display: flex;
+  align-items: center; /* Alinea verticalmente el contenido de cada ponente */
   margin-bottom: 2rem;
+  background-color: #f9f9f9; /* Fondo para destacar cada ponente */
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden; /* Asegura que el contenido no desborde */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave para profundidad */
 }
 
 .speaker-img img {
-  width: 300px; /* Establece un ancho fijo para todas las imágenes */
-  height: 400px; /* Establece un alto fijo para todas las imágenes */
-  object-fit: cover; /* Asegura que las imágenes cubran el espacio sin deformarse */
+  width: 300px; /* Ancho fijo para todas las imágenes */
+  height: 400px; /* Alto fijo para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen cubra el espacio asignado */
   margin-right: 20px; /* Espacio entre la imagen y el texto */
 }
 
 .speaker-info {
   flex: 1;
+  padding: 20px; /* Espaciado interno para el texto */
 }
 
 .speaker-info h3 {
   margin-top: 0;
+  color: #007bff; /* Color para los nombres, ajustable según la marca */
 }
 
 .speaker-info p {
@@ -916,21 +939,21 @@
   margin-top: 0.5rem;
 }
 
-/* Responsive adjustments */
+/* Ajustes Responsivos */
 @media (max-width: 768px) {
   .speaker {
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Centra el contenido en dispositivos pequeños */
   }
 
   .speaker-img img {
-    width: 100%; /* Ajusta las imágenes para dispositivos móviles */
-    height: auto; /* Mantiene la proporción en dispositivos móviles */
-    margin-bottom: 20px;
+    width: 100%; /* Las imágenes ocupan todo el ancho en móviles */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 0; /* Elimina el margen derecho en móviles */
   }
 
   .speaker-info {
-    text-align: center;
+    text-align: center; /* Centra el texto en dispositivos pequeños */
   }
 }
 
