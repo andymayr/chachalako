@@ -919,11 +919,15 @@ body, html {
 }
 
 .speaker-img {
-    width: 100%; /* Make images responsive */
-    height: auto;
-    object-fit: cover; /* Ensure the image covers the designated area */
-    border-radius: 10px; /* Optional: for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for shadow effect */
+    width: 300px; /* Establece un ancho fijo */
+    height: 400px; /* Establece un alto fijo */
+    object-fit: cover; /* Cubre el área sin perder las proporciones */
+    border-radius: 10px; /* Opcional: para esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: para efecto de sombra */
+    display: block; /* Asegura que la imagen no sea inline */
+    margin: 0 auto; /* Centra la imagen dentro del div si el div es más ancho */
+}
+
 }
 
 .details h2 {
