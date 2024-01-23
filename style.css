@@ -918,15 +918,22 @@ body, html {
     padding: 15px; /* Adjust spacing inside columns */
 }
 
-.speaker-img {
-    width: 300px; /* Establece un ancho fijo */
-    height: 400px; /* Establece un alto fijo */
-    object-fit: cover; /* Cubre el área sin perder las proporciones */
-    border-radius: 10px; /* Opcional: para esquinas redondeadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: para efecto de sombra */
-    display: block; /* Asegura que la imagen no sea inline */
-    margin: 0 auto; /* Centra la imagen dentro del div si el div es más ancho */
+.img-container {
+    width: 300px; /* Ancho del contenedor */
+    height: 400px; /* Alto del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que exceda del contenedor */
+    display: flex; /* Permite centrar la imagen vertical y horizontalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 0 auto; /* Si deseas centrar el contenedor en su columna */
 }
+
+.speaker-img {
+    max-width: 100%; /* Hace que la imagen no exceda el ancho del contenedor */
+    min-height: 100%; /* Asegura que la imagen cubra el alto del contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor adecuadamente */
+}
+
 
 }
 
