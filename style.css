@@ -1,32 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Laser en Medicina</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-
   <!-- Favicons -->
   <link href="https://i.postimg.cc/Rhjc8zt8/Logo-evento.jpg" rel="icon">
   <link href="https://i.postimg.cc/Rhjc8zt8/Logo-evento.jpg" rel="apple-touch-icon">
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/venobox/venobox.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
   <!-- =======================================================
     Theme Name: TheEvent
     Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
@@ -34,9 +28,7 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-
 <body>
-
   <!--==========================
     Header
   ============================-->
@@ -63,11 +55,9 @@
     <li><a href="#contact">Contacto</a></li>
     <li class="buy-tickets"><a href="#buy-tickets">Comprar Entradas</a></li>
 </ul>
-
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-
   <!--==========================
     Intro Section
   ============================-->
@@ -84,7 +74,6 @@
     </div>
 </section>
   <main id="main">
-
     <!--==========================
       About Section
     ============================-->
@@ -94,7 +83,6 @@
           <div class="col-lg-6">
             <h2>Acerca del evento</h2>
 <p>El potencial transformador de la tecnología láser en medicina es innegable, y va mucho más allá de sus actuales funciones destacadas en cirugía ocular, procedimientos dentales y cirugía general. Invitamos a médicos de diversas especialidades a participar en un esclarecedor curso introductorio que desvela el amplio espectro de aplicaciones que ofrece el láser. Desde la dermatología a la oncología, los láseres exhiben versatilidad, ofreciendo intervenciones precisas con menor pérdida de sangre y tiempos de recuperación más rápidos. Aunque las ventajas son evidentes, reconocer las desventajas garantiza una toma de decisiones informada. Únase a nosotros para explorar cómo la tecnología láser puede revolucionar su consulta, fomentando la colaboración y mejorando los resultados de los pacientes. Aproveche esta oportunidad para mantenerse a la vanguardia de la innovación médica y mejorar su experiencia en diversas disciplinas.</p>
-
           </div>
           <div class="col-lg-3">
             <h3>Donde</h3>
@@ -107,7 +95,6 @@
         </div>
       </div>
     </section>
-
     <!--==========================
       Speakers Section
     ============================-->
@@ -131,9 +118,7 @@
                     </div>
                 </div>
             </div>
-
             
-
             <!-- Dra. Flor Arriaga -->
             <div class="col-lg-4 col-md-6">
                 <div class="speaker">
@@ -148,8 +133,6 @@
         </div>
     </div>
 </section>
-
-
 <!--==========================
   Schedule Section
 ============================-->
@@ -159,7 +142,6 @@
       <h2>Agenda</h2>
       <p>Esta es nuestra Agenda</p>
     </div>
-
     <ul class="nav nav-tabs" role="tablist">
       <!-- Additional Days -->
       <li class="nav-item">
@@ -172,11 +154,8 @@
         <a class="nav-link" href="#day-6" role="tab" data-toggle="tab">SÁBADO 27 DE ABRIL 2024</a>
       </li>
     </ul>
-
     <h3 class="sub-heading">Explore nuestra agenda detallada a continuación para descubrir una serie de sesiones informativas y enriquecedoras diseñadas para ampliar su conocimiento y experiencia.</h3>
-
     <div class="tab-content row justify-content-center">
-
       <!-- Schedule Day SÁBADO 20 DE ABRIL -->
       <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-4">
         <!-- Eventos del SÁBADO 20 DE ABRIL -->
@@ -212,7 +191,6 @@
         </div>
       </div>
       <!-- End Schedule Day SÁBADO 20 DE ABRIL -->
-
       <!-- Schedule Day VIERNES 26 DE ABRIL -->
 <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-5">
   <!-- Eventos del VIERNES 26 DE ABRIL -->
@@ -296,13 +274,9 @@
   <!-- ... (otros eventos de este día, siguiendo el mismo formato) -->
 </div>
 <!-- End Schedule Day SÁBADO 27 DE ABRIL 2024 -->
-
     </div>
-
   </div>
-
 </section>
-
     <!--==========================
       Venue Section
     ============================-->
@@ -312,7 +286,6 @@
       <h2>Event Venue</h2>
       <p>Event venue location info and gallery</p>
     </div>
-
     <div class="row no-gutters">
       <div class="col-lg-6 venue-map">
         <iframe 
@@ -325,7 +298,6 @@
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </div>
-
       <div class="col-lg-6 venue-info">
         <div class="row justify-content-center">
           <div class="col-11 col-lg-8">
@@ -336,7 +308,6 @@
       </div>
     </div>
   </div>
-
   <div class="container-fluid venue-gallery-container">
     <div class="row no-gutters">
       <!-- Gallery items -->
@@ -354,8 +325,6 @@
     </div>
   </div>
 </section>
-
-
     <!--==========================
       Hotels Section
     ============================-->
@@ -365,9 +334,7 @@
       <h2>Hoteles</h2>
       <p>Aquí hay algunos hoteles cercanos</p>
     </div>
-
     <div class="row">
-
       <!-- Grand Fiesta Americana -->
       <div class="col-lg-4 col-md-6">
         <div class="hotel">
@@ -385,7 +352,6 @@
           <p>Osa Mayor 2507 Col, Reserva Territorial Atlixcáyotl, Centro Comercial Angelopolis, 72190 Heroica Puebla de Zaragoza, Pue. - 5.3km</p>
         </div>
       </div>
-
       <!-- Hilton Garden Inn -->
       <div class="col-lg-4 col-md-6">
         <div class="hotel">
@@ -401,7 +367,6 @@
           <p>Atlixcáyotl 2528, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72830 San Andrés Cholula, Pue.</p>
         </div>
       </div>
-
       <!-- One Angelópolis -->
       <div class="col-lg-4 col-md-6">
         <div class="hotel">
@@ -418,24 +383,18 @@
           <p>No. 4015, Anillo Perif. Ecológico, San Andres Cholula, 72824 Heroica Puebla de Zaragoza, Pue.</p>
         </div>
       </div>
-
     </div>
   </div>
 </section>
-
-
     <!--==========================
       Sponsors Section
     ============================-->
     <section id="supporters" class="section-with-bg wow fadeInUp">
-
       <div class="container">
         <div class="section-header">
           <h2>Sponsors</h2>
         </div>
-
         <div class="row no-gutters supporters-wrap clearfix">
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="https://i.postimg.cc/SKF1S35m/HMAC-logo.jpg" class="img-fluid" alt="">
@@ -483,28 +442,20 @@
               <img src="https://i.postimg.cc/WbyfKhwF/Diller-DIller-logo.jpg" class="img-fluid" alt="">
             </div>
           </div>
-
         </div>
-
       </div>
-
     </section>
-
     <!--==========================
       F.A.Q Section
     ============================-->
     <section id="faq" class="wow fadeInUp">
-
       <div class="container">
-
         <div class="section-header">
           <h2>F.A.Q </h2>
         </div>
-
         <div class="row justify-content-center">
           <div class="col-lg-9">
               <ul id="faq-list">
-
                 <li>
                   <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq1" class="collapse" data-parent="#faq-list">
@@ -562,11 +513,8 @@
               </ul>
           </div>
         </div>
-
       </div>
-
     </section>
-
     <!--==========================
       Subscribe Section
     ============================-->
@@ -576,7 +524,6 @@
           <h2>Newsletter</h2>
           <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
         </div>
-
         <form method="POST" action="#">
           <div class="form-row justify-content-center">
             <div class="col-auto">
@@ -587,21 +534,17 @@
             </div>
           </div>
         </form>
-
       </div>
     </section>
-
     <!--==========================
       Buy Ticket Section
     ============================-->
     <section id="buy-tickets" class="section-with-bg wow fadeInUp">
       <div class="container">
-
         <div class="section-header">
           <h2>Buy Tickets</h2>
           <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
         </div>
-
         <div class="row">
           <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
@@ -664,14 +607,11 @@
                 <div class="text-center">
                   <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
       <!-- Modal Order Form -->
       <div id="buy-ticket-modal" class="modal fade">
         <div class="modal-dialog" role="document">
@@ -706,23 +646,17 @@
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
       </div><!-- /.modal -->
-
     </section>
-
     <!--==========================
       Contact Section
     ============================-->
     <section id="contact" class="section-bg wow fadeInUp">
-
       <div class="container">
-
         <div class="section-header">
           <h2>Contact Us</h2>
           <p>Nihil officia ut sint molestiae tenetur.</p>
         </div>
-
         <div class="row contact-info">
-
           <div class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
@@ -730,7 +664,6 @@
               <address>A108 Adam Street, NY 535022, USA</address>
             </div>
           </div>
-
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
@@ -738,7 +671,6 @@
               <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
             </div>
           </div>
-
           <div class="col-md-4">
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
@@ -746,9 +678,7 @@
               <p><a href="mailto:info@example.com">info@example.com</a></p>
             </div>
           </div>
-
         </div>
-
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
@@ -774,13 +704,9 @@
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div>
-
       </div>
     </section><!-- #contact -->
-
   </main>
-
-
   <!--==========================
     Footer
   ============================-->
@@ -788,12 +714,10 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-info">
             <img src="https://i.postimg.cc/Rhjc8zt8/Logo-evento.jpg" alt="">
             <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
           </div>
-
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -804,7 +728,6 @@
               <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -815,7 +738,6 @@
               <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
@@ -825,7 +747,6 @@
               <strong>Phone:</strong> +1 5589 55488 55<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
-
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -833,13 +754,10 @@
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
-
           </div>
-
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
@@ -855,9 +773,7 @@
       </div>
     </div>
   </footer><!-- #footer -->
-
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
-
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
@@ -868,10 +784,8 @@
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/venobox/venobox.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   
@@ -896,44 +810,38 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif; /* Use a modern, legible font */
 }
-
 .container {
     max-width: 1200px; /* Adjust based on your preference */
     margin: auto;
     padding: 20px;
 }
-
 .section-header h2, .section-header p {
     text-align: center; /* Center-align section heading and description */
 }
-
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: 15px -15px; /* Adjust spacing around rows */
 }
-
 .col-md-6 {
     width: 50%; /* Adjust the column width */
     padding: 15px; /* Adjust spacing inside columns */
 }
 
-.img-container {
-    width: 300px; /* Ancho del contenedor */
-    height: 400px; /* Alto del contenedor */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que exceda del contenedor */
-    display: flex; /* Permite centrar la imagen vertical y horizontalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    margin: 0 auto; /* Si deseas centrar el contenedor en su columna */
-}
-
 .speaker-img {
-    max-width: 100%; /* Hace que la imagen no exceda el ancho del contenedor */
-    min-height: 100%; /* Asegura que la imagen cubra el alto del contenedor */
-    object-fit: cover; /* Asegura que la imagen cubra el contenedor adecuadamente */
+    width: 100%; /* Make images responsive */
+    height: auto;
+    object-fit: cover; /* Ensure the image covers the designated area */
+    border-radius: 10px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for shadow effect */
+    width: 300px; /* Establece un ancho fijo */
+    height: 400px; /* Establece un alto fijo */
+    object-fit: cover; /* Cubre el área sin perder las proporciones */
+    border-radius: 10px; /* Opcional: para esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: para efecto de sombra */
+    display: block; /* Asegura que la imagen no sea inline */
+    margin: 0 auto; /* Centra la imagen dentro del div si el div es más ancho */
 }
-
 
 }
 
@@ -941,18 +849,14 @@ body, html {
     font-size: 24px; /* Adjust heading size */
     margin-bottom: 10px; /* Adjust spacing below headings */
 }
-
 .details p {
     font-size: 16px; /* Adjust paragraph size */
     line-height: 1.5; /* Adjust line height for readability */
 }
-
 @media (max-width: 768px) {
     .col-md-6 {
         width: 100%; /* Stack columns vertically on smaller screens */
     }
 }
-
 </body>
-
 </html>
