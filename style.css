@@ -891,6 +891,56 @@
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para navegadores móviles
   }, false);
 </script>
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a modern, legible font */
+}
+
+.container {
+    max-width: 1200px; /* Adjust based on your preference */
+    margin: auto;
+    padding: 20px;
+}
+
+.section-header h2, .section-header p {
+    text-align: center; /* Center-align section heading and description */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px -15px; /* Adjust spacing around rows */
+}
+
+.col-md-6 {
+    width: 50%; /* Adjust the column width */
+    padding: 15px; /* Adjust spacing inside columns */
+}
+
+.speaker-img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    object-fit: cover; /* Ensure the image covers the designated area */
+    border-radius: 10px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for shadow effect */
+}
+
+.details h2 {
+    font-size: 24px; /* Adjust heading size */
+    margin-bottom: 10px; /* Adjust spacing below headings */
+}
+
+.details p {
+    font-size: 16px; /* Adjust paragraph size */
+    line-height: 1.5; /* Adjust line height for readability */
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%; /* Stack columns vertically on smaller screens */
+    }
+}
 
 </body>
 
