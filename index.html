@@ -339,7 +339,7 @@
         <div class="row justify-content-center">
           <div class="col-11 col-lg-8">
             <h3>Hospital MAC Puebla, Mexico</h3>
-            <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
+            <p>El Hospital MAC Puebla se distingue por su excelencia en atención médica y su compromiso con la salud y bienestar de los pacientes. Con instalaciones de vanguardia, nuestro hospital es líder en servicios de salud en Puebla, ofreciendo una amplia gama de especialidades médicas soportadas por tecnología avanzada y un equipo de profesionales altamente calificados</p>
           </div>
         </div>
       </div>
@@ -884,21 +884,28 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   
- <script>
-  var header = document.getElementById("header");
-  var lastScrollTop = 0;
-  
-  window.addEventListener("scroll", function() {
+<script>
+// Obtener el elemento del encabezado
+var header = document.getElementById("header");
+
+// Variable para guardar la posición de desplazamiento anterior
+var lastScrollTop = 0;
+
+window.addEventListener("scroll", function() {
+    // Obtener la posición actual de desplazamiento
     var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Verificar si el desplazamiento es hacia abajo
     if (currentScroll > lastScrollTop) {
-      // Desplazamiento hacia abajo
-      header.style.height = "50px"; // Reduce la altura para minimizar el encabezado
+        // Ocultar el encabezado
+        header.style.top = "-100px"; // Ajusta este valor según la altura de tu encabezado
     } else {
-      // Desplazamiento hacia arriba
-      header.style.height = "100px"; // Restablece la altura original del encabezado
+        // Mostrar el encabezado
+        header.style.top = "0";
     }
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para navegadores móviles
-  }, false);
+    // Actualizar la posición de desplazamiento anterior
+    lastScrollTop = currentScroll;
+}, false);
 </script>
 
 
