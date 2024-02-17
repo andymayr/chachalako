@@ -907,7 +907,7 @@ h6 {
 
 #venue .venue-info:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(13, 20, 41, 0.9); /* Aumentar la opacidad para mejorar la visibilidad del texto */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -915,10 +915,15 @@ h6 {
   right: 0;
 }
 
+#venue .venue-info h3, #venue .venue-info p {
+  color: #fff; /* Asegurar que el color del texto sea blanco para mejor contraste */
+  z-index: 1;
+  position: relative; /* Asegurar que el texto esté por encima de la capa de superposición */
+}
+
 #venue .venue-info h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
 }
 
 @media (max-width: 574px) {
@@ -928,7 +933,6 @@ h6 {
 }
 
 #venue .venue-info p {
-  color: #fff;
   margin-bottom: 0;
 }
 
@@ -961,6 +965,8 @@ h6 {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
+  display: flex; /* Cambiado a flex para manejar mejor el tamaño */
+  flex-direction: column; /* Orientar los elementos del hotel verticalmente */
 }
 
 #hotels .hotel:hover .hotel-img img {
@@ -973,6 +979,8 @@ h6 {
 }
 
 #hotels .hotel-img img {
+  width: 100%; /* Asegurar que las imágenes de los hoteles tengan el mismo ancho */
+  height: auto; /* Ajustar la altura automáticamente para mantener la proporción */
   transition: 0.3s ease-in-out;
 }
 
@@ -1007,6 +1015,7 @@ h6 {
   font-style: italic;
   font-size: 15px;
 }
+
 
 /*--------------------------------------------------------------
 # Gallery Section
