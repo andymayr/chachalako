@@ -1360,21 +1360,21 @@ h6 {
   }
 }
 #footer {
-  background: #101522;
-  color: #eee;
+  background: #101522; /* Asegurándonos de que el fondo sea un tono oscuro para contrastar con el texto blanco */
+  color: #fff; /* Cambiando el color del texto a blanco */
   font-size: 14px;
   padding-bottom: 0;
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #040919; /* Manteniendo el fondo azul oscuro para el área superior del footer */
   padding: 60px 0;
 }
 
 #footer .footer-links h4,
 #footer .footer-contact h4 {
   font-size: 22px;
-  color: #fff;
+  color: #fff; /* Asegurando que los títulos sean blancos */
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -1385,34 +1385,34 @@ h6 {
   padding: 0;
   font-size: 14px;
   line-height: 1.5;
-  color: #ccc;
+  color: #fff; /* Cambiando el color de la lista y el párrafo a blanco */
 }
 
 #footer .footer-links ul i {
   padding-right: 10px;
-  color: #f82249;
+  color: #f82249; /* Manteniendo el color de los iconos */
   font-size: 18px;
 }
 
 #footer .footer-links ul li {
   padding: 10px 0;
-  color: #ccc;
+  color: #fff; /* Asegurando que los elementos de la lista sean blancos */
 }
 
 #footer .footer-links ul a {
-  color: #ccc;
+  color: #fff; /* Cambiando el color de los enlaces a blanco */
   transition: color 0.3s;
 }
 
 #footer .footer-links ul a:hover {
-  color: #f82249;
+  color: #f82249; /* Color al pasar el mouse sobre los enlaces */
 }
 
 #footer .footer-contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
-  color: #fff;
+  background: #333; /* Fondo de los iconos de redes sociales */
+  color: #fff; /* Iconos de redes sociales en blanco */
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1424,24 +1424,11 @@ h6 {
 }
 
 #footer .footer-contact .social-links a:hover {
-  background: #f82249;
-  color: #fff;
+  background: #f82249; /* Cambio de fondo al pasar el mouse sobre los iconos de redes sociales */
 }
 
 #footer .container.d-md-flex.py-4 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0;
-}
-
-#footer .container.d-md-flex.py-4 .social-links a {
-  color: #ccc;
-  margin-left: 15px;
-}
-
-#footer .container.d-md-flex.py-4 .social-links a:hover {
-  color: #f82249;
+  color: #fff; /* Asegurando que el texto adicional en el footer también sea blanco */
 }
 
 }
