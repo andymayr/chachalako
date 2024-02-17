@@ -95,13 +95,12 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
-
 /* Sections Header
 --------------------------------*/
 .section-header {
-  margin-bottom: 60px;
+  margin-bottom: 80px; /* Aumentado de 60px a 80px para más espacio */
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 20px; /* Se mantiene para la línea decorativa */
 }
 
 .section-header::before {
@@ -112,7 +111,7 @@ h6 {
   height: 5px;
   background: #f82249;
   bottom: 0;
-  left: calc(50% - 30px); /* Ajustado para centrar correctamente */
+  left: calc(50% - 30px); /* Se mantiene centrado */
 }
 
 .section-header h2 {
@@ -120,13 +119,13 @@ h6 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 20px; /* Aumentado de 10px a 20px para más espacio bajo el título */
 }
 
 .section-header p {
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin: 20px 0 40px; /* Aumentado para dar más espacio después del párrafo */
   font-size: 18px;
   font-weight: 500;
   color: #9195a2;
@@ -134,6 +133,7 @@ h6 {
 
 .section-with-bg {
   background-color: #f6f7fd;
+  padding: 60px 0; /* Añadido padding vertical para más espacio entre secciones con fondo */
 }
 
 /*--------------------------------------------------------------
