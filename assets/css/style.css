@@ -692,10 +692,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Schedule Section
---------------------------------------------------------------*/
-/* Base styles for the schedule section */
+/*-/* Base styles for the schedule section */
 #schedule {
   background: #f7f8fa; /* O cualquier color de fondo que desees */
   padding: 50px 0;
@@ -736,6 +733,8 @@ h6 {
 /* Estilos para el contenido de cada pestaña */
 #schedule .tab-pane {
   background: #fff; /* Fondo para el contenido de la pestaña */
+  display: flex; /* Utilizamos flexbox para alinear los elementos en una fila */
+  flex-wrap: wrap; /* Permitimos que los elementos se envuelvan a la siguiente fila */
 }
 
 /* Estilos para cada elemento de la agenda */
@@ -744,6 +743,8 @@ h6 {
   margin-bottom: 25px; /* Espaciado entre elementos */
   padding: 20px; /* Espaciado interno para elementos */
   border-left: 5px solid #f82249; /* Barra lateral para resaltar */
+  width: calc(100% / 3 - 30px); /* Ajustamos el ancho para mostrar 3 elementos por fila con margen */
+  margin-right: 30px; /* Margen derecho para los elementos */
 }
 
 /* Cambios de estilo al pasar el ratón por encima */
@@ -774,6 +775,14 @@ h6 {
   font-size: 14px;
   color: #555; /* Color de texto para la descripción */
   margin-bottom: 0; /* No dejar margen inferior */
+}
+
+/* Media query para ajustar el diseño en dispositivos más pequeños */
+@media (max-width: 768px) {
+  #schedule .schedule-item {
+    width: 100%; /* En dispositivos más pequeños, mostrar un elemento por fila */
+    margin-right: 0; /* Eliminar margen derecho */
+  }
 }
 
 /*--------------------------------------------------------------
