@@ -138,48 +138,44 @@ h6 {
 
 /*--------------------------------------------------------------
 # Header
---------------------------------------------------------------*/
 #header {
-  height: 90px;
+  display: flex;
+  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: space-between; /* Distribuye el espacio entre logo y navegación */
+  padding: 0 30px; /* Ajusta el padding según necesidades de diseño */
+  height: 90px; /* Altura fija del encabezado */
+  transition: all 0.5s; /* Suaviza la transición al cambiar de tamaño */
+  z-index: 997;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  transition: all 0.5s;
-  z-index: 997;
-  display: flex; /* Asegurar alineación vertical */
-  align-items: center; /* Centrar elementos verticalmente */
-  justify-content: space-between; /* Espaciado entre logo y navegación */
-  padding: 0 20px; /* Agregar un poco de padding a los lados */
 }
 
 #header.header-scrolled,
 #header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
-  height: 70px; /* Ajustar la altura cuando se desplaza */
+  background: rgba(6, 12, 34, 0.98); /* Fondo más oscuro al desplazar */
+  height: 70px; /* Reduce la altura al desplazar para más espacio */
 }
 
-#header #logo h1 {
-  font-size: 0; /* Ocultar el texto si está utilizando imagen */
+#header #logo {
+  flex: 1; /* Da al logo flexibilidad para ajustarse según el espacio disponible */
 }
 
 #header #logo img {
-  max-height: 40px; /* Ajustar según el diseño preferido */
-  transition: max-height 0.3s ease-in-out; /* Suavizar transición al cambiar de tamaño */
+  max-height: 40px; /* Asegura que el logo tenga un tamaño adecuado */
+  transition: max-height 0.3s ease-in-out; /* Suaviza la transición del tamaño del logo */
 }
 
 @media (max-width: 992px) {
   #header {
-    height: 70px; /* Reducir altura en dispositivos móviles */
+    padding: 0 15px; /* Reduce el padding en dispositivos más pequeños */
   }
 
   #header #logo img {
-    max-height: 30px; /* Reducir el tamaño del logo en dispositivos móviles */
+    max-height: 30px; /* Reduce aún más el tamaño del logo en dispositivos móviles */
   }
 }
-
-/*--------------------------------------------------------------
-# Buy Tickets
 --------------------------------------------------------------*/
 .buy-tickets {
   color: #fff;
