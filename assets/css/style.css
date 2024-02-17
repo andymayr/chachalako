@@ -972,9 +972,13 @@ h6 {
 }
 
 #hotels .hotel-img img {
-  width: 100%; /* Asegurar que las imágenes de los hoteles tengan el mismo ancho */
-  height: auto; /* Ajustar la altura automáticamente para mantener la proporción */
-  transition: 0.3s ease-in-out;
+  width: 100%; /* Asegura que el ancho de la imagen llene el contenedor */
+  height: auto; /* Mantiene la relación de aspecto de la imagen */
+  object-fit: cover; /* Cubre el área del contenedor sin perder la proporción */
+  display: block; /* Elimina el espacio extra debajo de la imagen */
+  max-height: 250px; /* Establece una altura máxima para todas las imágenes */
+}
+
 }
 
 #hotels h3 {
