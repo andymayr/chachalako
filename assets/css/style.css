@@ -695,121 +695,85 @@ h6 {
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
+/* Base styles for the schedule section */
 #schedule {
-  padding: 60px 0 60px 0;
+  background: #f7f8fa; /* O cualquier color de fondo que desees */
+  padding: 50px 0;
 }
 
+/* Estilos para las pestañas de navegación */
 #schedule .nav-tabs {
-  text-align: center;
-  margin: auto;
-  display: block;
-  border-bottom: 0;
   margin-bottom: 30px;
 }
 
 #schedule .nav-tabs li {
-  display: inline-block;
-  margin-bottom: 0;
+  margin-right: 5px;
 }
 
 #schedule .nav-tabs a {
-  border: none;
-  border-radius: 50px;
-  font-weight: 600;
-  background-color: #0e1b4d;
-  color: #fff;
-  padding: 10px 100px;
+  padding: 10px 15px;
+  background: #e6e6e6; /* Color de fondo para pestañas inactivas */
+  color: #555; /* Color de texto para pestañas inactivas */
 }
 
-@media (max-width: 991px) {
-  #schedule .nav-tabs a {
-    padding: 8px 60px;
-  }
-}
-
-@media (max-width: 767px) {
-  #schedule .nav-tabs a {
-    padding: 8px 50px;
-  }
-}
-
-@media (max-width: 480px) {
-  #schedule .nav-tabs a {
-    padding: 8px 30px;
-  }
+#schedule .nav-tabs a:hover {
+  background: #d4d4d4; /* Color de fondo al pasar el ratón por encima */
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
-  color: #fff;
+  background: #fff; /* Color de fondo para pestaña activa */
+  color: #333; /* Color de texto para pestaña activa */
 }
 
+/* Subtítulo dentro de la sección de agenda */
 #schedule .sub-heading {
-  text-align: center;
   font-size: 18px;
-  font-style: italic;
-  margin: 0 auto 30px auto;
+  color: #666;
+  margin-bottom: 25px;
+  padding: 0 15px;
 }
 
-@media (min-width: 991px) {
-  #schedule .sub-heading {
-    width: 75%;
-  }
-}
-
+/* Estilos para el contenido de cada pestaña */
 #schedule .tab-pane {
-  transition: ease-in-out 0.2s;
+  background: #fff; /* Fondo para el contenido de la pestaña */
 }
 
+/* Estilos para cada elemento de la agenda */
 #schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  transition: background-color ease-in-out 0.3s;
+  background-color: #f9f9f9; /* Fondo para elementos de la agenda */
+  margin-bottom: 25px; /* Espaciado entre elementos */
+  padding: 20px; /* Espaciado interno para elementos */
+  border-left: 5px solid #f82249; /* Barra lateral para resaltar */
 }
 
+/* Cambios de estilo al pasar el ratón por encima */
 #schedule .schedule-item:hover {
   background-color: #fff;
 }
 
+/* Estilos para el tiempo de cada evento */
 #schedule .schedule-item time {
-  padding-bottom: 5px;
-  display: inline-block;
+  font-size: 16px;
+  color: #f82249; /* Color para la hora */
+  margin-right: 10px;
 }
 
-#schedule .schedule-item .speaker {
-  width: 60px;
-  height: 60px;
-  overflow: hidden;
-  border-radius: 50%;
-  float: left;
-  margin: 0 10px 10px 0;
-}
-
-#schedule .schedule-item .speaker img {
-  height: 100%;
-  transform: translateX(-50%);
-  margin-left: 50%;
-  transition: all ease-in-out 0.3s;
-}
-
+/* Estilos para el título de cada evento y el nombre del ponente */
 #schedule .schedule-item h4 {
   font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 5px;
+  font-weight: 600; /* Fuente un poco más gruesa */
+  margin-bottom: 5px; /* Espaciado debajo del título */
 }
 
 #schedule .schedule-item h4 span {
-  font-style: italic;
-  color: #19328e;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: normal; /* Fuente normal para el nombre del ponente */
 }
 
+/* Estilos para la descripción de cada evento */
 #schedule .schedule-item p {
-  font-style: italic;
-  color: #152b79;
-  margin-bottom: 0;
+  font-size: 14px;
+  color: #555; /* Color de texto para la descripción */
+  margin-bottom: 0; /* No dejar margen inferior */
 }
 
 /*--------------------------------------------------------------
