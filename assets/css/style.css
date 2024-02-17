@@ -1439,3 +1439,12 @@ h6 {
     height: 200px; /* Altura ajustada para dispositivos móviles */
   }
 }
+/* Estilos para ocultar los contenidos de los días excepto el día activo */
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
