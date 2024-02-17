@@ -1167,10 +1167,13 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Buy Tickets Section
---------------------------------------------------------------*/
 #buy-tickets {
   padding: 60px 0;
+}
+
+#buy-tickets .section-header {
+  text-align: center; /* Asegura que el título y el subtítulo estén centrados */
+  margin-bottom: 50px; /* Espacio adicional para separar del contenido de las tarjetas */
 }
 
 #buy-tickets .card {
@@ -1184,35 +1187,18 @@ h6 {
   box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
 }
 
-#buy-tickets .card hr {
-  margin: 25px 0;
-}
-
-#buy-tickets .card .card-title {
-  margin: 10px 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
+#buy-tickets .card .card-title,
 #buy-tickets .card .card-price {
-  font-size: 48px;
-  margin: 0;
-}
-
-#buy-tickets .card ul li {
-  margin-bottom: 20px;
-}
-
-#buy-tickets .card .text-muted {
-  opacity: 0.7;
+  text-align: center; /* Asegura que el título y precios estén centrados */
 }
 
 #buy-tickets .card .btn {
+  display: block; /* Hace que el botón ocupe todo el ancho del contenedor */
+  width: auto; /* Permite que el tamaño del botón se ajuste al texto */
+  margin: 20px auto; /* Centra el botón horizontalmente y agrega espacio superior */
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
-  transition: all 0.2s;
   background-color: #f82249;
   border: 0;
   color: #fff;
@@ -1222,23 +1208,8 @@ h6 {
   background-color: #e0072f;
 }
 
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
-  border-radius: 0;
-}
-
-#buy-tickets #buy-ticket-modal .btn {
-  font-size: 15px;
-  border-radius: 50px;
-  padding: 10px 40px;
-  transition: all 0.2s;
-  background-color: #f82249;
-  border: 0;
-  color: #fff;
-}
-
-#buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+#buy-tickets .row {
+  justify-content: center; /* Centra las tarjetas dentro de la fila cuando hay menos tarjetas */
 }
 
 /*--------------------------------------------------------------
