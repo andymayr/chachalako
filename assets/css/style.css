@@ -692,15 +692,19 @@ h6 {
   }
 }
 
-/*-/* Base styles for the schedule section */
+/*-/* Base styles for the  section */
+/* Base styles for the schedule section */
 #schedule {
-  background: #f7f8fa; /* O cualquier color de fondo que desees */
+  background: #f7f8fa; /* Color de fondo para la sección de agenda */
   padding: 50px 0;
+  text-align: center; /* Alinear los botones de día al centro */
 }
 
 /* Estilos para las pestañas de navegación */
 #schedule .nav-tabs {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center; /* Alinear los botones de día al centro */
 }
 
 #schedule .nav-tabs li {
@@ -733,8 +737,9 @@ h6 {
 /* Estilos para el contenido de cada pestaña */
 #schedule .tab-pane {
   background: #fff; /* Fondo para el contenido de la pestaña */
-  display: flex; /* Utilizamos flexbox para alinear los elementos en una fila */
-  flex-wrap: wrap; /* Permitimos que los elementos se envuelvan a la siguiente fila */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Alinear los elementos de la agenda */
 }
 
 /* Estilos para cada elemento de la agenda */
@@ -743,8 +748,7 @@ h6 {
   margin-bottom: 25px; /* Espaciado entre elementos */
   padding: 20px; /* Espaciado interno para elementos */
   border-left: 5px solid #f82249; /* Barra lateral para resaltar */
-  width: calc(100% / 3 - 30px); /* Ajustamos el ancho para mostrar 3 elementos por fila con margen */
-  margin-right: 30px; /* Margen derecho para los elementos */
+  width: calc(33.33% - 20px); /* Ancho para mostrar 3 elementos por fila con margen */
 }
 
 /* Cambios de estilo al pasar el ratón por encima */
@@ -781,7 +785,6 @@ h6 {
 @media (max-width: 768px) {
   #schedule .schedule-item {
     width: 100%; /* En dispositivos más pequeños, mostrar un elemento por fila */
-    margin-right: 0; /* Eliminar margen derecho */
   }
 }
 
