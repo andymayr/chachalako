@@ -151,11 +151,11 @@ h6 {
 #header.header-scrolled,
 #header.header-inner {
   background: rgba(6, 12, 34, 0.98);
-  height: 70px;
+  height: 70px; /* Se mantiene igual para evitar impactar el diseño cuando se desplaza */
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 36px; /* Tamaño del texto del logo se mantiene */
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -164,25 +164,26 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #f82249; /* Color del elemento span dentro del h1 se mantiene */
 }
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #fff;
+  color: #fff; /* Color de los enlaces se mantiene */
 }
 
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 45px; /* Incrementado de 40px a 45px para hacer el logo más grande */
 }
 
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 35px; /* Incrementado de 30px a 35px para dispositivos más pequeños */
   }
 }
+
 
 
 --------------------------------------------------------------*/
