@@ -112,7 +112,7 @@ h6 {
   height: 5px;
   background: #f82249;
   bottom: 0;
-  left: calc(50% - 25px);
+  left: calc(50% - 30px); /* Ajustado para centrar correctamente */
 }
 
 .section-header h2 {
