@@ -1466,23 +1466,3 @@ h6 {
   }
 }
 /* Estilos para ocultar los contenidos de los días excepto el día activo */
-.tab-pane {
-    display: none;
-}
-
-.tab-pane.active {
-    display: block;
-}
-
-.imagen-izquierda {
-  position: absolute;
-  top: 50px;
-  left: 20px;
-  width: 200px;
-  height: auto;
-  object-fit: contain;
-}
-
-.col-lg-8 {
-  padding-left: 250px; /* Aumenta el margen izquierdo para que no se superponga con la imagen */
-}
